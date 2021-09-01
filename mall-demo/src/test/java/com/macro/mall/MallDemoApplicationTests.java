@@ -33,10 +33,13 @@ public class MallDemoApplicationTests {
 	@Test
 	public void testLog() throws Exception {
 		ObjectMapper mapper = new ObjectMapper();
+
 		PmsProduct product = new PmsProduct();
-		product.setId(1L);
-		product.setName("小米手机");
-		product.setBrandName("小米");
+
+		product.setId(2L);
+		product.setName("小米手机1");
+		product.setBrandName("小米1");
+
 		logger.info(mapper.writeValueAsString(product));
 		logger.error(mapper.writeValueAsString(product));
 	}
