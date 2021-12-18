@@ -1,4 +1,4 @@
-package com.macro.mall;
+package com.macro.mall.algorithm;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.macro.mall.model.PmsProduct;

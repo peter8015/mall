@@ -1,7 +1,6 @@
-package com.macro.mall;
+package com.macro.mall.algorithm;
 
 
-import junit.framework.Assert;
 import org.junit.Test;
 
 import static junit.framework.TestCase.assertTrue;

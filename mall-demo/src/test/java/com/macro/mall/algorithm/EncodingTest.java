@@ -1,4 +1,4 @@
-package com.macro.mall;
+package com.macro.mall.algorithm;
 
 
 import java.nio.charset.Charset;
